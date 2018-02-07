@@ -33,7 +33,6 @@ def find_the_cheese(array) # code an argument here
     if array.include?(cheese_types)
       array.detect {|cheese| 
         cheese_types.include?(cheese)}
-      end 
     elsif array.none? {|cheese| (cheese == "cheddar" || "gouda" || "camembert")}
       nil 
     end 
